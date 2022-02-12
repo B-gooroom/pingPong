@@ -8,3 +8,13 @@
   border-radius: 50%;
   position: absolute;
 }
+
+#bar-red {
+  background-color: red;
+  position: absolute;
+}
+
+#bar-green {
+  background-color: green;
+  position: absolute;
+}
