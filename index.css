@@ -1,0 +1,14 @@
+.play-board {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.play-ball {
+  background-color: white;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
