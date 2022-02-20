@@ -86,6 +86,9 @@ const render = function() {
       console.log(parseInt(playBall.style.left) - parseInt(barGreen.style.left));
       console.log(playBall.style.left, barGreen.style.left);
       direction.top = ballSize * -1;
+      // direction.left = _.random(-20, 20); lodash로 적용했을 떄
+      direction.left = Math.round(Math.random() * (-20 - 20) + 20);
+      speed -= 1;
     }
   } else if (parseInt(playBall.style.top) <= 20) {
     const gameOver = parseInt(playBall.style.left) - parseInt(barRed.style.left);
@@ -93,6 +96,9 @@ const render = function() {
       console.log(parseInt(playBall.style.left) - parseInt(barRed.style.left));
       console.log(playBall.style.left, barRed.style.left);
       direction.top = ballSize * 1;
+      // direction.left = _.random(-20, 20); lodash로 적용했을 떄
+      direction.left = Math.round(Math.random() * (-20 - 20) + 20);
+      speed -= 1;
     }
   }
 
