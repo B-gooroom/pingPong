@@ -141,6 +141,13 @@ const start = function () {
   go = true;
   setTimeout(render, speed);
 }
+
+const restart = function () {
+  go = true;
+  setting();
+  setTimeout(render, speed);
+}
+
 setting();
 document.addEventListener('keydown', keydown)
 setTimeout(render, speed);
