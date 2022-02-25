@@ -18,3 +18,55 @@
   background-color: green;
   position: absolute;
 }
+
+.player-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+}
+
+.player {
+  text-align: center;
+}
+
+.btn-container {
+  width: 300px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-btn {
+  width: 300px;
+  margin: 8px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-1p {
+  width: 150px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #67F8B7; */
+  background-color: #40DC8B;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.btn-2p {
+  width: 150px;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  /* background-color: #66D6EF; */
+  background-color: #FFD58C;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.btn-main {
+  width: 100px;
+}

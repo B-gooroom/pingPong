@@ -10,18 +10,30 @@
 </head>
 <body>
   <h2>Play PingPong</h2>
-  <button onclick="player1(-10)">A</button>
-  <button onclick="player1(10)">D</button>
+  <div class="player-content">
+    <div class="player">1p</div>
+    <div class="btn-container">
+      <button onclick="player1(-10)" class="btn-1p">A</button>
+      <button onclick="player1(10)" class="btn-1p">D</button>
+    </div>
+  </div>
   <div id="play-board">
     <div id="play-ball"></div>
     <div id="bar-red"></div>
     <div id="bar-green"></div>
   </div>
-  <button onclick="player2(-10)">←</button>
-  <button onclick="player2(10)">→</button>
-  <div style="margin: 20px">
-    <button onclick="stop()">stop</button>
-    <button onclick="start()">start</button>
+  <div class="player-content">
+    <div class="player">2p</div>
+    <div class="btn-container">
+      <button onclick="player2(-10)" class="btn-2p">←</button>
+      <button onclick="player2(10)" class="btn-2p">→</button>
+    </div>
+  </div>
+  <div class="main-btn">
+    <button onclick="stop()" class="btn-main">stop</button>
+    <button onclick="start()" class="btn-main">start</button>
+    <button onclick="restart()" class="btn-main">restart</button>
+
   </div>
 </body>
 </html>
