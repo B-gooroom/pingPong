@@ -10,7 +10,7 @@ const direction = {
 }
 let barRedDirection = 0;
 let barGreenDirection = 0;
-const barWidth = 90; 
+const barWidth = 90;
 let go = true;
 
 playBoard.style.width = '300px';
@@ -23,7 +23,7 @@ barGreen.style.width = barWidth + 'px';
 barGreen.style.height = ballSize + 'px';
 console.log(playBoard.style)
 
-const player1 = function(value) {
+const player1 = function (value) {
   // console.log(barRedDirection, value)
   if (barRedDirection === value) {
     barRedDirection = 0;
@@ -32,7 +32,7 @@ const player1 = function(value) {
   }
 }
 
-const player2 = function(value) {
+const player2 = function (value) {
   // console.log(barGreenDirection, value)
   if (barGreenDirection === value) {
     barGreenDirection = 0;
@@ -59,7 +59,7 @@ const keydown = function (event) {
   console.log(event)
 }
 
-const setting = function() {
+const setting = function () {
   playBall.style.left = '140px';
   playBall.style.top = '140px';
   barRed.style.left = '100px';
@@ -69,7 +69,7 @@ const setting = function() {
   speed = 50;
 };
 
-const render = function() {
+const render = function () {
   if (!go) return;
   // console.log(speed,parseInt(playBall.style.top))
 

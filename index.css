@@ -10,12 +10,12 @@
 }
 
 #bar-red {
-  background-color: red;
+  background-color: #49c481;
   position: absolute;
 }
 
 #bar-green {
-  background-color: green;
+  background-color: #62b4fe;
   position: absolute;
 }
 
@@ -33,7 +33,7 @@
 .btn-container {
   width: 300px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin: 10px 0;
   display: flex;
   justify-content: space-between;
 }
@@ -47,26 +47,58 @@
 
 .btn-1p {
   width: 150px;
+  height: 30px;
   margin: 4px;
   display: flex;
   justify-content: center;
-  /* background-color: #67F8B7; */
-  background-color: #40DC8B;
-  border: 1px solid gray;
-  border-radius: 12px;
+  align-items: center;
+  background-color: #2aa35d;
+  box-shadow: 0px 4px 8px rgba(44, 71, 43, 0.3);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 16px;
+}
+
+.btn-1p:hover {
+  background-color: #2aa35d;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(44, 71, 43, 0.6);
 }
 
 .btn-2p {
   width: 150px;
+  height: 30px;
   margin: 4px;
   display: flex;
   justify-content: center;
-  /* background-color: #66D6EF; */
-  background-color: #FFD58C;
-  border: 1px solid gray;
-  border-radius: 12px;
+  align-items: center;
+  background-color: #0b3253;
+  box-shadow: 0px 4px 8px rgba(16, 44, 82, 0.3);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 16px;
+}
+
+.btn-2p:hover {
+  background-color: #0b3253;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(16, 44, 82, 0.6);
 }
 
 .btn-main {
-  width: 100px;
+  width: 96px;
+  height: 30px;
+  background-color: #679eb4;
+  box-shadow: 0 4px 8px rgba(13, 41, 63, 0.3);
+  border-radius: 16px;
+  color: white;
+  border: none;
+}
+
+.btn-main:hover {
+  background-color: #679eb4;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(13, 41, 63, 0.6);
 }
