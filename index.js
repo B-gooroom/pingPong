@@ -67,6 +67,9 @@ const setting = function () {
   barGreen.style.left = '100px';
   barGreen.style.top = '280px';
   speed = 50;
+  direction.left = 0;
+  barRedDirection = 0;
+  barGreenDirection = 0;
 };
 
 const render = function () {
